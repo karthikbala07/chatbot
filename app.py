@@ -17,7 +17,7 @@ def results():
     # fetch action from json
     if (req.get('queryResult').get('action') == 'ug'):
          return {'fulfillmentText': 'I did my under graduate studies in SSN college of Engineering}
-    elif (req.get('queryResult').get('action') == 'UG.UG-custom'):
+    elif (req.get('queryResult').get('action') == 'ug_follow'):
          return {'fulfillmentText': 'My cumulative score is 7.2 from my university exams.'}
     
          
