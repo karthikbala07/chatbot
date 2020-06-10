@@ -18,11 +18,11 @@ def results():
     if (req.get('queryResult').get('action') == 'ug'):
          return {'fulfillmentText': 'I did my under graduate studies in SSN college of Engineering'}
     elif (req.get('queryResult').get('action') == 'ug_grade'):
-         return {'fulfillmentText': 'My cumulative score is 7.2 from university exams.'}
+         return {'fulfillmentText': 'My cumulative score is 7.2 out of 10 from university exams.'}
     elif (req.get('queryResult').get('action') == 'ug_name'):
          return {'fulfillmentText': 'My course was  B.E in electrical engineering .'}
     elif (req.get('queryResult').get('action') == 'school'):
-         return {'fulfillmentText': 'My cumulative score is 7.2 out of 10 from my university exams.'}
+         return {'fulfillmentText': 'I did my high schooling in MLM Mamallan Mat Hr.sec school'}
     elif (req.get('queryResult').get('action') == 'school_grade'):
          return {'fulfillmentText': 'My high school grade is 9.4 out of 10 from the final exams.'}
     elif (req.get('queryResult').get('action') == 'pg'):
