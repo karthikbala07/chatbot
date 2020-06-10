@@ -17,9 +17,10 @@ def results():
     # fetch action from json
     if (req.get('queryResult').get('action') == 'ug'):
          return {'fulfillmentText': 'I did my under graduate studies in SSN college of Engineering'}
-    elif (req.get('queryResult').get('action') == 'ug_follow'):
+    elif (req.get('queryResult').get('action') == 'ug_grade'):
          return {'fulfillmentText': 'My cumulative score is 7.2 from my university exams.'}
-    
+    elif (req.get('queryResult').get('action') == 'ug_name'):
+         return {'fulfillmentText': 'My course was  B.E in electrical engineering .'}
          
 
 # create a route for webhook
