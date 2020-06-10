@@ -26,11 +26,11 @@ def results():
     elif (req.get('queryResult').get('action') == 'school_grade'):
          return {'fulfillmentText': 'My high school grade is 9.4 out of 10 from the final exams.'}
     elif (req.get('queryResult').get('action') == 'pg'):
-         return {'fulfillmentText': 'I did my graduate studies in State University of New York,Buffalo '}
+         return {'fulfillmentText': 'I did my graduate studies in State University of New York,Buffalo'}
     elif (req.get('queryResult').get('action') == 'pg_grade'):
          return {'fulfillmentText': 'My Masters cumulative score is 3.8 out of 4 from the final exams'}
     elif (req.get('queryResult').get('action') == 'pg_name'):
-         return {'fulfillmentText': 'My course was  M.S in electrical engineering with a focus in Semiconductors .'}
+         return {'fulfillmentText': 'My course was  M.S in electrical engineering with a focus in Semiconductors'}
          
 
 # create a route for webhook
